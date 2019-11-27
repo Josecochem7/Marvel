@@ -1,0 +1,7 @@
+Superheroes$Actores
+Iron_Man$Robert_Downey_Jr
+Thor$Christopher_Hemsworth
+Capitan_America$Chris_Evans
+Spiderman$Tom_Holland
+Viuda_Negra$Scarlett_Johansson
+Bruce_Banner$Mark_Ruffalo
