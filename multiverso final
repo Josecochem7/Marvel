@@ -1,0 +1,27 @@
+url1 <- "https://raw.githubusercontent.com/Josecochem7/Marvel/master/Avengers.txt"
+
+Marvel <- read.table(url1, header = T)
+
+url2 <- "https://raw.githubusercontent.com/Josecochem7/Marvel/master/DC%20Movies%2010.txt"
+
+DC <- read.table(url2, header = T)
+
+
+url3 <- "https://raw.githubusercontent.com/Josecochem7/Marvel/master/Superheroes.txt"
+Superheroes <- read.delim(url3, sep="$")
+
+url4 <- "https://raw.githubusercontent.com/Josecochem7/Marvel/master/vill.txt"
+Villanos <- read.delim(url4, sep= "/")
+
+
+
+multiverso <- list()
+
+multiverso$peliculas <- list()
+multiverso$personajes <- list()
+
+multiverso$peliculas$marvel <- data.frame(Marvel)
+multiverso$peliculas$DC <- data.frame(DC)
+
+multiverso$personajes$superheroes <- data.frame(Superheroes)
+multiverso$personajes$villanos <- data.frame(Villanos)
